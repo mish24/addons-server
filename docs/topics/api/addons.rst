@@ -119,9 +119,9 @@ Detail
 This endpoint allows you to fetch a specific add-on by id, slug or guid.
 
     .. note::
-        Non-public add-ons, or add-ons with only unlisted versions, require
-        authentication and either reviewer permissions or a user account listed
-        as a developer of the add-on.
+        Non-public add-ons and add-ons with only unlisted versions require both:
+            * authentication
+            * reviewer permissions or an account listed as a developer of the add-on
 
     .. note::
         This endpoint will have the add-ons it can access reduced to public
